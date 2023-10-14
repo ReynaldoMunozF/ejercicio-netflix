@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+body {
+    background-color: black;
+}
+
+.containernav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0.5em 0em 0em 0em;   
+}
+
+.imagenetflix {
+    width: 10em;
+    padding: 0em 0em 0em 1em;
+}
+.menu {
+    display: flex; 
+        
+}
+.menu ul {
+    padding: 1em;    
+}
+.menu a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    justify-content: center;
+      
+}
+.icons img {
+    width: 1.5em;
+    margin: 0.5em;
+}
+ .espacio {
+    width: 100em;
+} 
+
+.texto {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 4em 1em 0em 1em;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+}
+.pelis {
+    height: 15em;
+    width: 30em; 
+    justify-self: center;
+    margin: 0.5em;  
+    transition: 0.3s; 
+}
+
+.pelis img {
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.pelis:hover {
+    width: 30.5em;
+   
+    transition: 0.3s;
+}
